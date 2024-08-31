@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    text-align: center;
+}
+.head{
+    margin-top: 200px;
+    font-size: 30px;
+}
+#display{
+    margin-top: 50px;
+    font-size: 30px;
+}
+#controls{
+    margin-top: 30px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background: #78B7D0;
+    border: solid black 1px;
+    border-radius: 10px;
+    color: #fff;
+}
+button:hover{
+    transition: 0.5s;
+    background: #FEECB3;
+    color: #000;
+}
